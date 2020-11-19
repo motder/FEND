@@ -67,5 +67,36 @@
       color: rgba(0, 0, 0, 0.9);
   }
   .container1 {
-      display: flex;
+    display: flex;
+  }
+  .main-image {
+    max-width: 825px;
+    height: auto;
+  }
+  .main-image img{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .main-article h1{
+    font-family: Kanit;
+    /* font-size: 4.2rem; */
+    text-transform: uppercase;
+
+    color: rgba(0, 0, 0, 0.9);
+
+  }
+
+  .main-article p {
+    height: auto;
+    font-family: Biryani;
+    /* font-size: 20px; */
+
+    color: rgba(49, 49, 49, 0.9);
   }
