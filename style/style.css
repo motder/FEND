@@ -16,7 +16,7 @@
   
   html,body{
     height: 100%;
-    width: 100%;
+    max-width: 1440px;
     font-size: 100%;
     line-height: 1;
     font-size: 14px;
@@ -79,24 +79,51 @@
     background-repeat: no-repeat;
   }
   .main-article {
+    max-width: 614px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    
   }
   .main-article h1{
+    max-width: 90%;
+    padding-left: 5.9rem;
+    padding-right: auto;
+    padding-bottom: 2rem;
+    
     font-family: Kanit;
-    /* font-size: 4.2rem; */
+    font-size: 4.167vw;
+    font-weight: 800;
     text-transform: uppercase;
-
+    letter-spacing: 0.2rem;
+        
     color: rgba(0, 0, 0, 0.9);
-
+    
   }
 
   .main-article p {
+    max-width: 90%;
     height: auto;
-    font-family: Biryani;
-    /* font-size: 20px; */
+    padding-left: 6.14rem;
+    padding-right: auto;
+    padding-bottom: 2.8rem;
 
+    font-family: Biryani;
+    font-size: 1.389vw;
+    line-height: 2.3rem;
+            
     color: rgba(49, 49, 49, 0.9);
+  }
+  .main-article button {
+    margin-left: 6.1rem;
+
+    font-family: Biryani;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border: 1px solid #FFE600;
+    padding: 1.1rem 4.2rem;
+
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #FFE600;
   }
